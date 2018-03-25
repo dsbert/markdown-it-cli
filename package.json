@@ -8,12 +8,19 @@
   "license": "MIT",
   "private": true,
   "preferGlobal": true,
-  "bin": { "mdit": "./index.js"},
+  "bin": {
+    "mdit": "./index.js"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
   "dependencies": {
     "commander": "^2.15.1",
     "markdown-it": "^8.4.1"
   },
   "devDependencies": {
-    "markdown-it-abbr": "^1.0.4"
+    "markdown-it-abbr": "^1.0.4",
+    "mocha": "^5.0.5",
+    "sinon": "^4.4.8"
   }
 }
