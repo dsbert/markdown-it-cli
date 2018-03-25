@@ -1,0 +1,19 @@
+{
+  "name": "markdown-it-cli",
+  "version": "1.0.0",
+  "description": "Run markdown-it from the command line",
+  "main": "index.js",
+  "repository": "git@github.com:dsbert/markdown-it-cli.git",
+  "author": "dsbert",
+  "license": "MIT",
+  "private": true,
+  "preferGlobal": true,
+  "bin": { "mdit": "./index.js"},
+  "dependencies": {
+    "commander": "^2.15.1",
+    "markdown-it": "^8.4.1"
+  },
+  "devDependencies": {
+    "markdown-it-abbr": "^1.0.4"
+  }
+}
