@@ -15,12 +15,12 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "commander": "^10.0.1",
-    "markdown-it": "^13.0.1"
+    "commander": "^12.1.0",
+    "markdown-it": "^14.1.0"
   },
   "devDependencies": {
-    "markdown-it-abbr": "^1.0.4",
-    "mocha": "^10.2.0",
-    "sinon": "^15.0.3"
+    "markdown-it-abbr": "^2.0.0",
+    "mocha": "^10.7.3",
+    "sinon": "^18.0.1"
   }
 }
